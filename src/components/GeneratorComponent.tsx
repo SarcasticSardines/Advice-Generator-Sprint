@@ -32,7 +32,9 @@ const GeneratorComponent = () => {
                 <div className='divGrey'>
                     <h5 className='txtG'>ADVICE #{tip?.slip.id}</h5>
                     <h2>{tip?.slip.advice}</h2>
-                    <img />
+                    <div className='divide' >
+                    <img src={DesktopDivide} />  
+                    </div>
                 </div>
                 <button className='btnGreen' onClick={toggle}>
                     <img src={Dice} />
